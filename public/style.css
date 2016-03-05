@@ -28,3 +28,17 @@ thead{
 #todo-list-template{
   display:none;
 }
+
+.top-row{
+  background-color: #748EA8;
+  padding-bottom: 2%;
+}
+
+.input-row{
+  background-color: #ADBDCE;
+  padding-bottom: 5%;
+}
+
+body{
+  background-color: #F2F3F4;
+}
