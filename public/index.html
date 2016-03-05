@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+  <h1>To Do List</h1>
+  <div class="row">
+    <div class="col-sm-2">
+      <h4>Description</h4>
+      <div class="input-group">
+  <input type="text" class="form-control desc-input" aria-label="...">
+</div>
+    </div>
+    <div class="col-sm-3">
+      <h4>Due Date</h4>
+
+      <div class="input-group">
+  <input type="date" class="form-control due-date-input" aria-label="...">
+</div>
+    </div>
+    <div class="col-sm-4">
+      <div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default submit-button">Submit</button>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    
+<table>
+  <thead>
+    <tr>
+      <td>
+        Description
+      </td>
+      <td>
+        Due Date
+      </td>
+      <td>
+        Completed
+      </td>
+      <td>
+        Delete
+    </td>
+    </tr>
+  </thead>
+  <tbody id = "todo-list-table">
+    <tr id ="todo-list-template">
+      <td class="description">
+      </td>
+      <td class = "due-date">
+      </td>
+      <td class = "completed">
+        <div class="">
+  <label><input class = "completed-check" type="checkbox" value=""></label>
+</div>
+      </td>
+      <td class>
+        <span class="glyphicon glyphicon-remove delete-button"></span>
+      </td>
+    </tr>
+ 
+  </tbody>
+</table>
+  </div>
+
+</div>
+
+</div>
+</body>
+</html>

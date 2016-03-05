@@ -1,0 +1,30 @@
+.submit-button{
+  margin-top:55%;
+}
+
+table{
+  border:2px solid black;
+  margin-top:1%;
+}
+
+td{
+ width:150px;
+  height:10%;
+  border:1px black solid;
+  text-align: center;
+}
+
+thead{
+  text-align: center;
+}
+
+.delete-button:hover{
+  border:2px solid blue;
+  background-color:lightblue;
+  color:red;
+  cursor:pointer;
+}
+
+#todo-list-template{
+  display:none;
+}
